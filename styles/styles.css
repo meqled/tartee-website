@@ -10,6 +10,9 @@
 .navcolor {
   background-color: #2b281e;
 }
+.colorspan{
+  color: #39362c !important;
+}
 .wall {
   display: flex;
   flex-direction: column;
