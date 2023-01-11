@@ -1,0 +1,121 @@
+.orange {
+  color: orange;
+}
+.text-bar {
+  color: rgb(255, 251, 242);
+}
+.text-bar:hover {
+  color: orange;
+}
+.navcolor {
+  background-color: #2b281e;
+}
+.wall {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:650px;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.fonter {
+  font-family: "Pacifico", cursive;
+}
+.fs-big {
+  font-size: 80px !important;
+  font-weight: 300;
+}
+.fs-semi-big {
+  font-size: 45px;
+}
+.bg-orange {
+    background-color: orange;
+    
+  }
+  .linex{
+    position: relative;
+    display: flex;
+   
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line-thick{
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: orange;
+
+}
+.line-slim{position: absolute;
+background-color:orange;
+width: 180px;
+height: 2px;
+}
+
+.panel{
+  background-image: url(../img/bg.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.borderme{
+  border: 1px solid white;
+  
+  /* outline: 4px steelblue solid; */
+}
+.bg-pik{
+  background-color: #FAF3EB;
+}
+.pic{
+  transition-duration: 0.5s;
+
+
+
+}
+.pic:hover{
+  filter: blur(10px);
+  scale: 110%;
+}
+.pic2{
+  transition-duration: 0.5s;
+
+
+
+}
+.pic2:hover{
+  filter: blur(0.2px);
+  scale: 110%;
+  color: #ffa946 !important;
+}
+.showme{
+
+  opacity: 0;
+}
+
+.pasta{
+  
+  
+  top: 50%;
+  
+
+}
+.effect:hover > .showme{
+  opacity: 1;
+
+}
+.effect:hover > .pic{
+  filter: blur(10px);
+  scale: 110%;
+
+}
+
+
+@media(max-width: 991px){
+    .wall { height: auto ;}
+
+}
+
